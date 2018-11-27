@@ -103,4 +103,9 @@ public class CustomerController {
         return customerService.findAll();
     }
 
+    @GetMapping("cust/findAll1")
+    public List<Customer> findAll12(){
+        return customerService.findAll();
+    }
+
 }
