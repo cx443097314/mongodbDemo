@@ -1,0 +1,19 @@
+
+spring:
+  data:
+    mongodb:
+#     配置多数据源
+#     主数据源
+      mongo1:
+        database: test1
+        port: 27017
+        host: 127.0.0.1
+        uri: mongo//127.0.0.1/test1
+#     从数据源
+      mongo2:
+        database: test2
+        port: 27017
+        host: 127.0.0.1
+        uri: mongo//127.0.0.1/test2
+server:
+  port: 9500
